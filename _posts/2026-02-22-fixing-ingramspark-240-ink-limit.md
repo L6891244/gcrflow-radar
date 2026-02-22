@@ -4,6 +4,7 @@ title: "How to Fix IngramSpark 240% Total Ink Coverage Error (2026 Expert Guide)
 date: 2026-02-22 12:00:00 +0000
 categories: [Prepress, Tutorials]
 tags: [IngramSpark, TAC, TIC, GCR, PDF Error]
+image: /assets/images/posts/2026-02-22-ingramspark-og.svg
 description: "Is your PDF rejected by IngramSpark due to 240% ink limit? Learn how to fix Total Ink Coverage (TAC) errors using GCR and professional prepress techniques."
 ---
 
