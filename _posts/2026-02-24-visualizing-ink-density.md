@@ -29,7 +29,7 @@ Standard SWOP (310%):          GCR Optimized (200%):
   Total  310% ⚠️ OVER            Total  200% ✓ SAFE
 ```
 
-The visual appearance is nearly identical, but the ink load is dramatically reduced.
+The visual appearance is nearly identical, but the ink load is dramatically reduced. For a deeper look at how GCR achieves this compared to manual slider adjustments, see our [GCR vs. Manual CMYK comparison](/2026/02/gcr-vs-manual-adjustments/).
 
 ## 2. How to Check via Adobe Acrobat Pro
 If you have Acrobat Pro, follow these steps to generate your own "Heatmap":
@@ -51,6 +51,8 @@ Instead, you should **re-map the separation**—change the ink "recipe" undernea
 - [ ] Have you run an Output Preview check in Acrobat?
 - [ ] Are transparency effects (shadows/glows) flattened at the correct limit?
 - [ ] Have you verified the entire document, not just spot-checked a few pages?
+
+If your file is destined for IngramSpark specifically, our [IngramSpark 240% TAC fix guide](/2026/02/fixing-ingramspark-240-ink-limit/) covers the platform-specific details. And to understand the real production cost of skipping this validation step, see [The Hidden Cost of Ink Coverage Errors](/2026/02/the-math-of-reprint-disaster/).
 
 ---
 *If your Output Preview shows widespread TAC violations, a global GCR conversion may be the most efficient fix. [GCRflow](https://stg.gcrflow.com) can process entire PDFs in seconds.*
