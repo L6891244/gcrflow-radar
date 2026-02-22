@@ -1,29 +1,25 @@
 ---
 layout: page
-title: 关于
+title: About
 permalink: /about/
 ---
 
-## 关于 GCRflow Radar
+## About GCRflow Radar
 
-GCRflow Radar 是一个聚焦印前技术的专业博客，由 GCRflow 团队运营。
+GCRflow Radar is a technical blog focused on prepress production, published by the GCRflow team.
 
-我们的作者拥有 **15 年印前实战经验**，从 CTP 制版到色彩管理，从 PDF 预检到 GCR 转换，每一个参数都是亲手调过的。
+We write about **GCR (Gray Component Replacement)**, total ink coverage management, PDF pre-flight, and color separation workflows. Every article addresses a specific production problem with practical, actionable guidance.
 
-### 为什么做这个博客
+### Why This Blog
 
-印前行业的很多问题，网上搜不到靠谱的答案。要么是软件厂商的营销文案，要么是泛泛而谈的科普，真正能解决实际问题的内容太少了。
+Many prepress questions don't have reliable answers online. Most search results are either software marketing copy or surface-level overviews that don't help when you're staring at a rejected PDF at 2am.
 
-GCRflow Radar 的每一篇文章都聚焦**一个具体问题**，给出**可操作的解决方案**。不写大而全，只写你明天就能用上的。
+Each article on GCRflow Radar focuses on **one concrete problem** and provides a **working solution** you can apply immediately.
 
-### 关于 GCRflow
+### About GCRflow
 
-[GCRflow](https://gcrflow.com) 是全球首个云端 GCR（灰成分替换）转换服务。
-
-上传 PDF，设定目标总墨量，43 秒出结果。不需要安装软件，不需要懂色彩管理，不需要买几万块的 license。
-
-**¥99/月，解决你所有的总墨量问题。**
+[GCRflow](https://gcrflow.com) is a cloud-based GCR conversion service for prepress professionals. Upload a PDF, set your target ink limit, and get a production-ready file back—no software installation, no ICC profile configuration, no per-seat licensing.
 
 ---
 
-📮 有问题或建议？欢迎通过 [GCRflow 官网](https://gcrflow.com) 联系我们。
+Questions or suggestions? Reach us through [gcrflow.com](https://gcrflow.com).
