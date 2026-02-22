@@ -22,12 +22,12 @@ Maintaining a perfect gray balance on a high-speed press is challenging. If your
 **GCR Approach:** By shifting that heavy CMY mix into the Black channel, you stabilize the press output. Black ink is a single, stable component; CMY balance is inherently volatile. GCR provides a stability buffer for the press operator.
 
 ## 3. Drying Time and Set-off
-In modern print-on-demand (POD) environments like IngramSpark, drying time is critical. Manual adjustments often leave pockets of high density in complex areas like drop shadows and gradients.
+In modern print-on-demand (POD) environments like IngramSpark, drying time is critical. Manual adjustments often leave pockets of high density in complex areas like drop shadows and gradients. If you're working with IngramSpark's 240% limit specifically, see our [detailed guide to fixing IngramSpark TAC errors](/2026/02/fixing-ingramspark-240-ink-limit/).
 
 **GCR Approach:** A proper GCR conversion ensures that *every pixel* in the document is brought below the safety threshold. This reduces the risk of **set-off** (ink transferring to the facing page) and allows for faster post-press finishing.
 
 ## 4. Workflow Efficiency
-Manual color adjustment in Photoshop is a per-image process. In a modern workflow handling dozens or hundreds of pages, this becomes a bottleneck. Automated GCR tools can process an entire PDF—including vectors, gradients, and images—in a single pass.
+Manual color adjustment in Photoshop is a per-image process. In a modern workflow handling dozens or hundreds of pages, this becomes a bottleneck. Automated GCR tools can process an entire PDF—including vectors, gradients, and images—in a single pass. For shops that only need GCR occasionally, a [pay-per-job model](/2026/02/pay-per-job-gcr-benefits/) can make this more accessible than enterprise software.
 
 ## When to Use Each Approach
 
@@ -37,6 +37,9 @@ Manual color adjustment in Photoshop is a per-image process. In a modern workflo
 | Full PDF with multiple images | Impractical | Ideal |
 | Strict TAC limit (e.g. 240%) | Risk of missed areas | Comprehensive coverage |
 | Color-critical production | Risky | Predictable results |
+
+## How to Spot Problem Areas First
+Before choosing your approach, it helps to know where your file exceeds the limit. Our guide on [visualizing ink density with heatmaps](/2026/02/visualizing-ink-density/) shows how to use Acrobat's Output Preview to identify problem areas.
 
 ## Conclusion
 Both approaches have their place, but for consistent, production-quality results—especially when working with strict TAC limits—GCR conversion offers a more reliable and efficient workflow than manual slider adjustments.
