@@ -28,10 +28,10 @@ The model is straightforward:
 ## Who Benefits Most?
 
 ### Independent Authors & Designers
-Publishing through IngramSpark or KDP and need to fix a single cover or interior PDF. A one-time pack of 10 credits covers your project without any subscription commitment.
+Publishing through IngramSpark or KDP and need to fix a single cover or interior PDF. If you're dealing with IngramSpark's specific 240% limit, our [IngramSpark TAC fix guide](/2026/02/fixing-ingramspark-240-ink-limit/) walks through the full process. A one-time pack of credits covers your project without any subscription commitment.
 
 ### Small Commercial Printers
-Handling mostly compliant files, but occasionally receiving client PDFs with 300%+ ink coverage. Pay-per-job lets you fix these files without maintaining a dedicated prepress workstation.
+Handling mostly compliant files, but occasionally receiving client PDFs with 300%+ ink coverage. Pay-per-job lets you fix these files without maintaining a dedicated prepress workstation. To understand where those problem areas hide, see [how to visualize ink density with heatmaps](/2026/02/visualizing-ink-density/).
 
 ### Prepress Freelancers
 Working across multiple clients with varying needs. A flexible credit system matches the irregular nature of freelance workflows.
