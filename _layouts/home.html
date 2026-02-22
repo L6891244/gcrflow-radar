@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">◉ GCRflow Radar</div>
+    <h1 class="hero-title">印前技术洞察</h1>
+    <p class="hero-subtitle">来自15年印前实战经验，聚焦GCR转换、总墨量优化、PDF印前处理。<br>每篇文章解决一个具体问题，不写泛泛而谈。</p>
+  </div>
+</section>
+
+<!-- Posts -->
+<section class="posts-section">
+  <div class="posts-grid">
+    {% for post in paginator.posts %}
+    <article class="post-card">
+      <div class="post-card-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+        {% if post.tags.size > 0 %}
+        <span class="post-card-tag">{{ post.tags | first }}</span>
+        {% endif %}
+      </div>
+      <h2 class="post-card-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h2>
+      <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+      <a href="{{ post.url | relative_url }}" class="post-card-link">阅读全文 →</a>
+    </article>
+    {% endfor %}
+  </div>
+
+  <!-- Pagination -->
+  {% if paginator.total_pages > 1 %}
+  <nav class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-btn">← 上一页</a>
+    {% endif %}
+    <span class="pagination-info">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-btn">下一页 →</a>
+    {% endif %}
+  </nav>
+  {% endif %}
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <h2>总墨量超标？试试 GCRflow</h2>
+    <p>全球首个云端GCR转换服务。上传PDF，43秒出结果，零配置。</p>
+    <a href="https://gcrflow.com" class="cta-btn" target="_blank">免费试用 →</a>
+  </div>
+</section>

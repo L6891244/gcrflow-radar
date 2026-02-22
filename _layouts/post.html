@@ -1,0 +1,91 @@
+---
+layout: default
+---
+
+<article class="article">
+  <!-- Article Header -->
+  <header class="article-header">
+    <div class="article-header-inner">
+      <div class="article-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y年%m月%d日" }}</time>
+        <span class="article-reading-time" id="reading-time"></span>
+      </div>
+      <h1 class="article-title">{{ page.title }}</h1>
+      {% if page.description %}
+      <p class="article-description">{{ page.description }}</p>
+      {% endif %}
+      {% if page.tags.size > 0 %}
+      <div class="article-tags">
+        {% for tag in page.tags %}
+        <span class="article-tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </header>
+
+  <!-- Article Body -->
+  <div class="article-body-wrapper">
+    <!-- TOC Sidebar -->
+    {% if page.toc %}
+    <aside class="article-toc" id="toc">
+      <div class="toc-title">目录</div>
+      <nav class="toc-nav" id="toc-nav"></nav>
+    </aside>
+    {% endif %}
+
+    <!-- Content -->
+    <div class="article-content" id="article-content">
+      {{ content }}
+    </div>
+  </div>
+
+  <!-- Article Footer -->
+  <footer class="article-footer">
+    <div class="article-cta">
+      <p>📌 这篇文章来自 <strong>GCRflow Radar</strong> — 15年印前实战经验的技术洞察。</p>
+      <p>如果你也被总墨量问题困扰，<a href="https://gcrflow.com" target="_blank">试试 GCRflow</a>，上传PDF即出结果。</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="article-nav">
+      {% if page.previous.url %}
+      <a href="{{ page.previous.url | relative_url }}" class="article-nav-link prev">
+        <span class="article-nav-label">← 上一篇</span>
+        <span class="article-nav-title">{{ page.previous.title }}</span>
+      </a>
+      {% endif %}
+      {% if page.next.url %}
+      <a href="{{ page.next.url | relative_url }}" class="article-nav-link next">
+        <span class="article-nav-label">下一篇 →</span>
+        <span class="article-nav-title">{{ page.next.title }}</span>
+      </a>
+      {% endif %}
+    </nav>
+  </footer>
+</article>
+
+<script>
+// Calculate reading time
+const content = document.getElementById('article-content');
+const text = content.innerText;
+const cjkChars = (text.match(/[\u4e00-\u9fff]/g) || []).length;
+const words = text.replace(/[\u4e00-\u9fff]/g, '').split(/\s+/).filter(w => w).length;
+const minutes = Math.ceil((cjkChars / 400) + (words / 200));
+document.getElementById('reading-time').textContent = `约 ${minutes} 分钟`;
+
+// Generate TOC
+const tocNav = document.getElementById('toc-nav');
+if (tocNav) {
+  const headings = content.querySelectorAll('h2, h3');
+  headings.forEach((h, i) => {
+    const id = 'heading-' + i;
+    h.id = id;
+    const link = document.createElement('a');
+    link.href = '#' + id;
+    link.textContent = h.textContent;
+    link.className = 'toc-link' + (h.tagName === 'H3' ? ' toc-sub' : '');
+    tocNav.appendChild(link);
+  });
+}
+</script>
