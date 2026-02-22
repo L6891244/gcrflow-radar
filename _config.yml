@@ -1,9 +1,9 @@
 # GCRflow Radar - Blog Configuration
 title: GCRflow Radar
-tagline: 印前技术洞察 · Prepress Insights
+tagline: Prepress Technology Insights
 description: >-
-  GCRflow Radar — 来自15年印前实战经验的技术洞察。
-  聚焦GCR转换、总墨量优化、PDF印前处理，帮助印刷从业者解决真实问题。
+  GCRflow Radar — practical prepress insights on GCR conversion,
+  ink coverage optimization, and PDF print production workflows.
 
 url: "https://radar.gcrflow.com"
 baseurl: ""
@@ -14,7 +14,7 @@ author:
   url: https://gcrflow.com
 
 # Language
-lang: zh-CN
+lang: en
 
 # Build
 markdown: kramdown
