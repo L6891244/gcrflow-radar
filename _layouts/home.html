@@ -6,8 +6,8 @@ layout: default
 <section class="hero">
   <div class="hero-inner">
     <div class="hero-badge">◉ GCRflow Radar</div>
-    <h1 class="hero-title">印前技术洞察</h1>
-    <p class="hero-subtitle">来自15年印前实战经验，聚焦GCR转换、总墨量优化、PDF印前处理。<br>每篇文章解决一个具体问题，不写泛泛而谈。</p>
+    <h1 class="hero-title">Prepress Technology Insights</h1>
+    <p class="hero-subtitle">Practical articles on GCR conversion, ink coverage optimization, and PDF print production.<br>Each post tackles a specific problem with actionable solutions.</p>
   </div>
 </section>
 
@@ -26,17 +26,8 @@ layout: default
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       </h2>
       <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
-      <a href="{{ post.url | relative_url }}" class="post-card-link">阅读全文 →</a>
+      <a href="{{ post.url | relative_url }}" class="post-card-link">Read more →</a>
     </article>
     {% endfor %}
-  </div>
-</section>
-
-<!-- CTA -->
-<section class="cta-section">
-  <div class="cta-inner">
-    <h2>总墨量超标？试试 GCRflow</h2>
-    <p>全球首个云端GCR转换服务。上传PDF，43秒出结果，零配置。</p>
-    <a href="https://gcrflow.com" class="cta-btn" target="_blank">免费试用 →</a>
   </div>
 </section>
