@@ -7,7 +7,7 @@ layout: default
   <div class="hero-inner">
     <div class="hero-badge">◉ GCRflow Radar</div>
     <h1 class="hero-title">印前技术洞察</h1>
-    <p class="hero-subtitle">聚焦GCR转换、总墨量优化、PDF印前处理。<br>每篇文章解决一个具体问题，不写泛泛而谈。</p>
+    <p class="hero-subtitle">来自15年印前实战经验，聚焦GCR转换、总墨量优化、PDF印前处理。<br>每篇文章解决一个具体问题，不写泛泛而谈。</p>
   </div>
 </section>
 
@@ -31,18 +31,6 @@ layout: default
     {% endfor %}
   </div>
 
-  <!-- Pagination -->
-  {% if paginator.total_pages > 1 %}
-  <nav class="pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-btn">← 上一页</a>
-    {% endif %}
-    <span class="pagination-info">{{ paginator.page }} / {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-btn">下一页 →</a>
-    {% endif %}
-  </nav>
-  {% endif %}
 </section>
 
 <!-- CTA -->
