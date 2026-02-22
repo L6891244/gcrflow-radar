@@ -25,6 +25,8 @@ Despite being a well-known issue, TAC violations continue to slip through becaus
 2. **RGB-to-CMYK conversion is unpredictable**: Auto-converted colors often produce ink totals well above 300%.
 3. **Pre-flight is skipped**: Many shops rely on the printer to catch errors, but by then the file is already in production.
 
+The good news is that these issues are easy to detect once you know where to look. Our guide on [visualizing ink density with heatmaps](/2026/02/visualizing-ink-density/) shows how to use Acrobat's Output Preview to spot problems in seconds.
+
 ## Prevention: Validation Before Production
 The most effective approach is **validating ink coverage before sending to press**:
 
@@ -33,7 +35,7 @@ The most effective approach is **validating ink coverage before sending to press
 - **PitStop Pro (Enfocus)**: Can flag and report TAC violations across an entire PDF.
 
 ### Automated GCR Conversion
-For files with widespread TAC issues, manual fixes are impractical. A GCR (Gray Component Replacement) conversion can bring the entire document under the target limit in a single pass, without altering the visual appearance.
+For files with widespread TAC issues, manual fixes are impractical. A [GCR conversion](/2026/02/gcr-vs-manual-adjustments/) can bring the entire document under the target limit in a single pass, without altering the visual appearance. This is particularly relevant for POD platforms with strict limits like [IngramSpark's 240% requirement](/2026/02/fixing-ingramspark-240-ink-limit/).
 
 ## The ROI of Prepress Validation
 Whether you use manual tools or automated GCR services, the math is simple: the cost of catching an ink coverage error before press is a fraction of the cost of a reprint. Even a single prevented reprint per year typically justifies the investment in proper pre-flight tools.
