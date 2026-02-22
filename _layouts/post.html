@@ -7,7 +7,7 @@ layout: default
   <header class="article-header">
     <div class="article-header-inner">
       <div class="article-meta">
-        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y年%m月%d日" }}</time>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
         <span class="article-reading-time" id="reading-time"></span>
       </div>
       <h1 class="article-title">{{ page.title }}</h1>
@@ -29,7 +29,7 @@ layout: default
     <!-- TOC Sidebar -->
     {% if page.toc %}
     <aside class="article-toc" id="toc">
-      <div class="toc-title">目录</div>
+      <div class="toc-title">Contents</div>
       <nav class="toc-nav" id="toc-nav"></nav>
     </aside>
     {% endif %}
@@ -42,22 +42,17 @@ layout: default
 
   <!-- Article Footer -->
   <footer class="article-footer">
-    <div class="article-cta">
-      <p>📌 这篇文章来自 <strong>GCRflow Radar</strong> — 15年印前实战经验的技术洞察。</p>
-      <p>如果你也被总墨量问题困扰，<a href="https://gcrflow.com" target="_blank">试试 GCRflow</a>，上传PDF即出结果。</p>
-    </div>
-
     <!-- Navigation -->
     <nav class="article-nav">
       {% if page.previous.url %}
       <a href="{{ page.previous.url | relative_url }}" class="article-nav-link prev">
-        <span class="article-nav-label">← 上一篇</span>
+        <span class="article-nav-label">← Previous</span>
         <span class="article-nav-title">{{ page.previous.title }}</span>
       </a>
       {% endif %}
       {% if page.next.url %}
       <a href="{{ page.next.url | relative_url }}" class="article-nav-link next">
-        <span class="article-nav-label">下一篇 →</span>
+        <span class="article-nav-label">Next →</span>
         <span class="article-nav-title">{{ page.next.title }}</span>
       </a>
       {% endif %}
@@ -69,10 +64,9 @@ layout: default
 // Calculate reading time
 const content = document.getElementById('article-content');
 const text = content.innerText;
-const cjkChars = (text.match(/[\u4e00-\u9fff]/g) || []).length;
-const words = text.replace(/[\u4e00-\u9fff]/g, '').split(/\s+/).filter(w => w).length;
-const minutes = Math.ceil((cjkChars / 400) + (words / 200));
-document.getElementById('reading-time').textContent = `约 ${minutes} 分钟`;
+const words = text.split(/\s+/).filter(w => w).length;
+const minutes = Math.max(1, Math.ceil(words / 200));
+document.getElementById('reading-time').textContent = minutes + ' min read';
 
 // Generate TOC
 const tocNav = document.getElementById('toc-nav');
