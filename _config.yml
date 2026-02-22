@@ -20,6 +20,8 @@ lang: zh-CN
 markdown: kramdown
 highlighter: rouge
 permalink: /:year/:month/:title/
+future: true
+show_drafts: true
 
 # Pagination
 paginate: 8
