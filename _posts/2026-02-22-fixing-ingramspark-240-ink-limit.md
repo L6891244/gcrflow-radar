@@ -19,10 +19,14 @@ Most standard printing profiles (like *US Web Coated SWOP v2*) have an ink limit
 - No "offsetting" (ink smudging onto the next page).
 - Sharp image detail in dark areas.
 
+Not sure what your ink density looks like? Our guide on [visualizing ink density with heatmaps](/2026/02/visualizing-ink-density/) walks you through the inspection process step by step.
+
 ## The Problem with Manual Fixes
 Many authors try to fix this by lowering the CMYK sliders in Photoshop. This approach has significant drawbacks:
 1. **Color Shifting**: You often lose the "pop" and balance of your colors.
 2. **Transparency Issues**: Complex layers in InDesign or Affinity can create "hidden" high-ink areas that sliders won't fix.
+
+For a deeper comparison of manual adjustments vs. professional GCR, see our [GCR vs. Manual CMYK Adjustments](/2026/02/gcr-vs-manual-adjustments/) article.
 
 ## Option 1: Adobe Acrobat Pro (Manual Approach)
 If you have Acrobat Pro, you can identify problem areas using **Tools > Print Production > Output Preview**. Check "Total Area Coverage" and set the limit to 240%. Any highlighted area exceeds the limit. However, Acrobat can only *show* you the problem—it doesn't convert the file for you.
