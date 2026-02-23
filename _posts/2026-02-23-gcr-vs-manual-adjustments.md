@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GCR vs. Manual CMYK Adjustments: A Practical Comparison for Prepress"
-date: 2026-02-23 12:00:00 +0000
+date: 2026-02-23 06:00:00 +0000
 categories: [Color Management, GCR]
 tags: [GCR, CMYK, Ink Saving, Prepress Strategy]
 image: /assets/images/posts/2026-02-23-gcr-vs-manual-og.svg
