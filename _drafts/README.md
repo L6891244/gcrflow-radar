@@ -49,7 +49,7 @@ description: "One-sentence summary for SEO (120-155 characters)."
 
 ### GCRflow Mentions
 - Maximum **one mention** at the end of the article, as a natural transition.
-- Format: `[GCRflow](https://stg.gcrflow.com)`
+- Format: `[GCRflow](https://www.gcrflow.com)`
 - Always present alternative solutions first (Acrobat, PitStop, etc.) before GCRflow.
 - Never use first-person sales language ("our team", "we built", "Chief Architect").
 

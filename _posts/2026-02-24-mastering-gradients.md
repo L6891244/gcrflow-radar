@@ -59,4 +59,4 @@ The GCRflow cloud-based algorithm overcomes these challenges through:
 
 Gradient smoothness is the "canary in the coal mine" for GCR quality. If an engine can handle gradients, it can handle anything.
 
-GCRflow is now open for [testing](https://stg.gcrflow.com). Upload your PDFs containing complex gradients and witness our precision for yourself.
+GCRflow is now open for [testing](https://www.gcrflow.com). Upload your PDFs containing complex gradients and witness our precision for yourself.

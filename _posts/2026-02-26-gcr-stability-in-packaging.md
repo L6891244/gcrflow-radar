@@ -35,4 +35,4 @@ Standardized GCRflow conversion results in higher color agreement across differe
 For packaging printers pursuing ultimate stability, GCR is no longer an option—it is a technical baseline for quality assurance. GCRflow helps you deliver the "one and only" color brand owners expect.
 
 ---
-*Curious how much stability GCR can add to your packaging designs? Upload a file for testing at [GCRflow](https://stg.gcrflow.com).*
+*Curious how much stability GCR can add to your packaging designs? Upload a file for testing at [GCRflow](https://www.gcrflow.com).*

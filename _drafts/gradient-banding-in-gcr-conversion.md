@@ -146,4 +146,4 @@ Gradient banding is the canary in the coal mine for GCR quality. If a GCR engine
 When evaluating any GCR tool, the most revealing test isn't a photograph or a logo — it's a simple gradient from white to rich black. That single test exposes K-onset behavior, TAC clamping, interpolation quality, and transition smoothness in one image.
 
 ---
-*[GCRflow](https://stg.gcrflow.com) uses adaptive GCR curves with gradient-aware processing to minimize banding artifacts. Try it with your own gradient test files — 3 free production downloads for new users.*
+*[GCRflow](https://www.gcrflow.com) uses adaptive GCR curves with gradient-aware processing to minimize banding artifacts. Try it with your own gradient test files — 3 free production downloads for new users.*

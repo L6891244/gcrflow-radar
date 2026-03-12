@@ -44,4 +44,4 @@ In 2026, "Ink Saving" isn't just a buzzword—it's a survival strategy. By imple
 
 ---
 
-**Ready to audit your ink savings?** Try our industrial-grade engine at [stg.gcrflow.com](https://stg.gcrflow.com/) and see the difference in your next press run.
+**Ready to audit your ink savings?** Try our industrial-grade engine at [www.gcrflow.com](https://www.gcrflow.com/) and see the difference in your next press run.

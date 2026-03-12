@@ -43,4 +43,4 @@ Whether you're dealing with standard CMYK jobs or complex 1-million-vector secur
 
 ---
 
-**Ready to see it in action?** Experience the future of prepress at [stg.gcrflow.com](https://stg.gcrflow.com/).
+**Ready to see it in action?** Experience the future of prepress at [www.gcrflow.com](https://www.gcrflow.com/).

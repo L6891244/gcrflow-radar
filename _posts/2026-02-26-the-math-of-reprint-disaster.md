@@ -44,4 +44,4 @@ Whether you use manual tools or automated GCR services, the math is simple: the 
 Ink coverage validation should be a standard step in every prepress workflow. The tools exist—from free Acrobat checks to automated GCR services—and the cost of skipping this step is measured in reprints, not minutes.
 
 ---
-*GCRflow provides automated TAC validation and GCR conversion for prepress workflows. [Try it free](https://stg.gcrflow.com) with 3 production downloads.*
+*GCRflow provides automated TAC validation and GCR conversion for prepress workflows. [Try it free](https://www.gcrflow.com) with 3 production downloads.*

@@ -43,4 +43,4 @@ To be fair, if your shop processes hundreds of files daily and needs deep integr
 The right tool depends on your volume and workflow. For shops that need professional GCR results without the overhead of enterprise licensing, pay-per-job cloud services provide a practical alternative.
 
 ---
-*GCRflow offers both one-time credit packs and monthly subscriptions to match different workflow needs. [Learn more](https://stg.gcrflow.com).*
+*GCRflow offers both one-time credit packs and monthly subscriptions to match different workflow needs. [Learn more](https://www.gcrflow.com).*

@@ -36,4 +36,4 @@ Automated GCR conversion can be triggered upon file ingestion, ensuring every PD
 In an era of tight margins, efficiency is survival. GCR is no longer just about saving a few liters of ink; it is the core component that helps prepress departments transition from "manual workshops" to "automated factories."
 
 ---
-*GCRflow offers high-efficiency cloud APIs that integrate seamlessly into your existing prepress automation systems. [Learn more](https://stg.gcrflow.com).*
+*GCRflow offers high-efficiency cloud APIs that integrate seamlessly into your existing prepress automation systems. [Learn more](https://www.gcrflow.com).*

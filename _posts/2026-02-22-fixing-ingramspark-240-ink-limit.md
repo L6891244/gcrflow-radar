@@ -40,10 +40,10 @@ GCR replaces the neutral gray parts of your CMY mix with Black (K) ink. Because 
 ### Step-by-Step Fix with GCR:
 1. **Identify the Culprits**: Use Acrobat's Output Preview to highlight areas over 240%.
 2. **Apply a 240% Profile**: Since IngramSpark doesn't provide a proprietary ICC profile, you need a specialized conversion.
-3. **Use a GCR Tool**: Upload your PDF to a GCR conversion service (such as [GCRflow](https://stg.gcrflow.com)), which applies professional-grade GCR algorithms to bring every pixel under the 240% limit while preserving your visual intent.
+3. **Use a GCR Tool**: Upload your PDF to a GCR conversion service (such as [GCRflow](https://www.gcrflow.com)), which applies professional-grade GCR algorithms to bring every pixel under the 240% limit while preserving your visual intent.
 
 ## Conclusion
 Understanding the 240% limit and using GCR technology ensures your book passes IngramSpark's checks on the first try. Whether you use manual tools or automated GCR conversion, the key is addressing ink density at the separation level—not by simply darkening or brightening the image.
 
 ---
-*Need to quickly convert a PDF to meet the 240% limit? [GCRflow](https://stg.gcrflow.com) offers 3 free production downloads for new users.*
+*Need to quickly convert a PDF to meet the 240% limit? [GCRflow](https://www.gcrflow.com) offers 3 free production downloads for new users.*

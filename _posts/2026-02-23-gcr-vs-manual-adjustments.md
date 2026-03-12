@@ -46,4 +46,4 @@ Before choosing your approach, it helps to know where your file exceeds the limi
 Both approaches have their place, but for consistent, production-quality results—especially when working with strict TAC limits—GCR conversion offers a more reliable and efficient workflow than manual slider adjustments.
 
 ---
-*Want to see the difference for yourself? [GCRflow](https://stg.gcrflow.com) lets you compare GCR results with 3 free downloads.*
+*Want to see the difference for yourself? [GCRflow](https://www.gcrflow.com) lets you compare GCR results with 3 free downloads.*

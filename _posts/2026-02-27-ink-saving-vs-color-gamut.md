@@ -33,4 +33,4 @@ We don't use simple linear formulas. GCRflow generates 4D Look-Up Tables through
 Ink saving and high image quality are not mutually exclusive. With advanced algorithms, printers can take away 20% of the cost silently without triggering a single customer complaint.
 
 ---
-*Still skeptical? Upload your wide-gamut samples for a stress test at [GCRflow](https://stg.gcrflow.com).*
+*Still skeptical? Upload your wide-gamut samples for a stress test at [GCRflow](https://www.gcrflow.com).*
