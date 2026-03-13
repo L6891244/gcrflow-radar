@@ -16,5 +16,5 @@ Each article addresses a specific production problem with practical, actionable 
 
 ---
 
-Questions or suggestions? Reach us at [gcrflow.com](https://www.gcrflow.com).
+Questions or suggestions? Reach us at [www.gcrflow.com](https://www.gcrflow.com).
 
