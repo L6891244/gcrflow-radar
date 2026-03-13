@@ -12,9 +12,9 @@ Each article addresses a specific production problem with practical, actionable 
 
 ### About GCRflow
 
-[GCRflow](https://gcrflow.com) is a cloud-based GCR conversion service. Upload a PDF, set your target ink limit, and get a production-ready file back.
+[GCRflow](https://www.gcrflow.com) is a cloud-based GCR conversion service. Upload a PDF, set your target ink limit, and get a production-ready file back.
 
 ---
 
-Questions or suggestions? Reach us at [gcrflow.com](https://gcrflow.com).
+Questions or suggestions? Reach us at [gcrflow.com](https://www.gcrflow.com).
 
